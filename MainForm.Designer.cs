@@ -85,9 +85,9 @@
             // 
             this.sideNavPanel1.Controls.Add(this.groupPanel1);
             this.sideNavPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sideNavPanel1.Location = new System.Drawing.Point(135, 39);
+            this.sideNavPanel1.Location = new System.Drawing.Point(139, 41);
             this.sideNavPanel1.Name = "sideNavPanel1";
-            this.sideNavPanel1.Size = new System.Drawing.Size(260, 1001);
+            this.sideNavPanel1.Size = new System.Drawing.Size(256, 999);
             this.sideNavPanel1.TabIndex = 2;
             // 
             // groupPanel1
