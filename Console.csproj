@@ -371,5 +371,11 @@
   <ItemGroup>
     <None Include="Resources\WitheCircle.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="JYUSB61903.dll" />
+    <Content Include="SeeSharpTools.JY.ArrayUtility.dll" />
+    <Content Include="SeeSharpTools.JY.DSP.Fundamental.dll" />
+    <Content Include="SeeSharpTools.JY.GUI.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
