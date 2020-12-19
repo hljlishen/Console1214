@@ -31,6 +31,34 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.sideNav1 = new DevComponents.DotNetBar.Controls.SideNav();
+            this.sideNavPanel11 = new DevComponents.DotNetBar.Controls.SideNavPanel();
+            this.advTree10 = new DevComponents.AdvTree.AdvTree();
+            this.Subject9_il = new System.Windows.Forms.ImageList(this.components);
+            this.node32 = new DevComponents.AdvTree.Node();
+            this.node191 = new DevComponents.AdvTree.Node();
+            this.node192 = new DevComponents.AdvTree.Node();
+            this.node193 = new DevComponents.AdvTree.Node();
+            this.node194 = new DevComponents.AdvTree.Node();
+            this.node195 = new DevComponents.AdvTree.Node();
+            this.node196 = new DevComponents.AdvTree.Node();
+            this.node197 = new DevComponents.AdvTree.Node();
+            this.node198 = new DevComponents.AdvTree.Node();
+            this.node199 = new DevComponents.AdvTree.Node();
+            this.node200 = new DevComponents.AdvTree.Node();
+            this.node201 = new DevComponents.AdvTree.Node();
+            this.node202 = new DevComponents.AdvTree.Node();
+            this.node203 = new DevComponents.AdvTree.Node();
+            this.node204 = new DevComponents.AdvTree.Node();
+            this.node205 = new DevComponents.AdvTree.Node();
+            this.node206 = new DevComponents.AdvTree.Node();
+            this.node207 = new DevComponents.AdvTree.Node();
+            this.node208 = new DevComponents.AdvTree.Node();
+            this.node209 = new DevComponents.AdvTree.Node();
+            this.node210 = new DevComponents.AdvTree.Node();
+            this.node211 = new DevComponents.AdvTree.Node();
+            this.node212 = new DevComponents.AdvTree.Node();
+            this.nodeConnector10 = new DevComponents.AdvTree.NodeConnector();
+            this.elementStyle10 = new DevComponents.DotNetBar.ElementStyle();
             this.sideNavPanel4 = new DevComponents.DotNetBar.Controls.SideNavPanel();
             this.sideNavPanel6 = new DevComponents.DotNetBar.Controls.SideNavPanel();
             this.sideNavPanel5 = new DevComponents.DotNetBar.Controls.SideNavPanel();
@@ -38,7 +66,6 @@
             this.sideNavPanel8 = new DevComponents.DotNetBar.Controls.SideNavPanel();
             this.sideNavPanel3 = new DevComponents.DotNetBar.Controls.SideNavPanel();
             this.advTree1 = new DevComponents.AdvTree.AdvTree();
-            this.Subject9_il = new System.Windows.Forms.ImageList(this.components);
             this.初级 = new DevComponents.AdvTree.Node();
             this.S9J_Aid_node = new DevComponents.AdvTree.Node();
             this.S9J_Instrument_node = new DevComponents.AdvTree.Node();
@@ -67,33 +94,6 @@
             this.sideNavPanel9 = new DevComponents.DotNetBar.Controls.SideNavPanel();
             this.sideNavPanel2 = new DevComponents.DotNetBar.Controls.SideNavPanel();
             this.sideNavPanel10 = new DevComponents.DotNetBar.Controls.SideNavPanel();
-            this.sideNavPanel11 = new DevComponents.DotNetBar.Controls.SideNavPanel();
-            this.advTree10 = new DevComponents.AdvTree.AdvTree();
-            this.node32 = new DevComponents.AdvTree.Node();
-            this.node191 = new DevComponents.AdvTree.Node();
-            this.node192 = new DevComponents.AdvTree.Node();
-            this.node193 = new DevComponents.AdvTree.Node();
-            this.node194 = new DevComponents.AdvTree.Node();
-            this.node195 = new DevComponents.AdvTree.Node();
-            this.node196 = new DevComponents.AdvTree.Node();
-            this.node197 = new DevComponents.AdvTree.Node();
-            this.node198 = new DevComponents.AdvTree.Node();
-            this.node199 = new DevComponents.AdvTree.Node();
-            this.node200 = new DevComponents.AdvTree.Node();
-            this.node201 = new DevComponents.AdvTree.Node();
-            this.node202 = new DevComponents.AdvTree.Node();
-            this.node203 = new DevComponents.AdvTree.Node();
-            this.node204 = new DevComponents.AdvTree.Node();
-            this.node205 = new DevComponents.AdvTree.Node();
-            this.node206 = new DevComponents.AdvTree.Node();
-            this.node207 = new DevComponents.AdvTree.Node();
-            this.node208 = new DevComponents.AdvTree.Node();
-            this.node209 = new DevComponents.AdvTree.Node();
-            this.node210 = new DevComponents.AdvTree.Node();
-            this.node211 = new DevComponents.AdvTree.Node();
-            this.node212 = new DevComponents.AdvTree.Node();
-            this.nodeConnector10 = new DevComponents.AdvTree.NodeConnector();
-            this.elementStyle10 = new DevComponents.DotNetBar.ElementStyle();
             this.sideNavItem1 = new DevComponents.DotNetBar.Controls.SideNavItem();
             this.separator1 = new DevComponents.DotNetBar.Separator();
             this.sideNavItem13 = new DevComponents.DotNetBar.Controls.SideNavItem();
@@ -113,10 +113,10 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.SideNavi_il = new System.Windows.Forms.ImageList(this.components);
             this.sideNav1.SuspendLayout();
-            this.sideNavPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.advTree1)).BeginInit();
             this.sideNavPanel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.advTree10)).BeginInit();
+            this.sideNavPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.advTree1)).BeginInit();
             this.SuspendLayout();
             // 
             // sideNav1
@@ -156,6 +156,298 @@
             this.sideNav1.Size = new System.Drawing.Size(701, 1061);
             this.sideNav1.TabIndex = 0;
             this.sideNav1.Text = "sideNav1";
+            // 
+            // sideNavPanel11
+            // 
+            this.sideNavPanel11.Controls.Add(this.advTree10);
+            this.sideNavPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sideNavPanel11.Location = new System.Drawing.Point(389, 41);
+            this.sideNavPanel11.Name = "sideNavPanel11";
+            this.sideNavPanel11.Size = new System.Drawing.Size(307, 1019);
+            this.sideNavPanel11.TabIndex = 68;
+            // 
+            // advTree10
+            // 
+            this.advTree10.AccessibleRole = System.Windows.Forms.AccessibleRole.Outline;
+            this.advTree10.BackColor = System.Drawing.SystemColors.Window;
+            // 
+            // 
+            // 
+            this.advTree10.BackgroundStyle.Class = "TreeBorderKey";
+            this.advTree10.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.advTree10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.advTree10.Font = new System.Drawing.Font("幼圆", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.advTree10.ImageList = this.Subject9_il;
+            this.advTree10.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
+            this.advTree10.Location = new System.Drawing.Point(0, 0);
+            this.advTree10.Name = "advTree10";
+            this.advTree10.Nodes.AddRange(new DevComponents.AdvTree.Node[] {
+            this.node32,
+            this.node195,
+            this.node203,
+            this.node210,
+            this.node211,
+            this.node212});
+            this.advTree10.NodesConnector = this.nodeConnector10;
+            this.advTree10.NodeSpacing = 10;
+            this.advTree10.NodeStyle = this.elementStyle10;
+            this.advTree10.PathSeparator = ";";
+            this.advTree10.Size = new System.Drawing.Size(307, 1019);
+            this.advTree10.Styles.Add(this.elementStyle10);
+            this.advTree10.TabIndex = 1;
+            this.advTree10.Text = "advTree10";
+            // 
+            // Subject9_il
+            // 
+            this.Subject9_il.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("Subject9_il.ImageStream")));
+            this.Subject9_il.TransparentColor = System.Drawing.Color.Transparent;
+            this.Subject9_il.Images.SetKeyName(0, "caliper_48px.png");
+            this.Subject9_il.Images.SetKeyName(1, "Google Tag Manager_96px.png");
+            this.Subject9_il.Images.SetKeyName(2, "hunt_48px.png");
+            this.Subject9_il.Images.SetKeyName(3, "workflow_48px.png");
+            this.Subject9_il.Images.SetKeyName(4, "caliper_30px.png");
+            this.Subject9_il.Images.SetKeyName(5, "Sphygmomanometer_48px.png");
+            this.Subject9_il.Images.SetKeyName(6, "course_40px.png");
+            this.Subject9_il.Images.SetKeyName(7, "motherboard_100px.png");
+            this.Subject9_il.Images.SetKeyName(8, "error_48px.png");
+            this.Subject9_il.Images.SetKeyName(9, "bug_60px.png");
+            this.Subject9_il.Images.SetKeyName(10, "customer_insight_48px.png");
+            this.Subject9_il.Images.SetKeyName(11, "maintenance_48px.png");
+            this.Subject9_il.Images.SetKeyName(12, "study_48px.png");
+            this.Subject9_il.Images.SetKeyName(13, "reading_48px.png");
+            this.Subject9_il.Images.SetKeyName(14, "mind_map_48px.png");
+            this.Subject9_il.Images.SetKeyName(15, "artificial_intelligence_48px.png");
+            this.Subject9_il.Images.SetKeyName(16, "learning_48px.png");
+            this.Subject9_il.Images.SetKeyName(17, "Todo List_48px.png");
+            this.Subject9_il.Images.SetKeyName(18, "hierarchy_48px.png");
+            this.Subject9_il.Images.SetKeyName(19, "gears_48px.png");
+            this.Subject9_il.Images.SetKeyName(20, "network_48px.png");
+            this.Subject9_il.Images.SetKeyName(21, "drill_96px.png");
+            this.Subject9_il.Images.SetKeyName(22, "process_48px.png");
+            // 
+            // node32
+            // 
+            this.node32.Expanded = true;
+            this.node32.ImageIndex = 14;
+            this.node32.Name = "node32";
+            this.node32.Nodes.AddRange(new DevComponents.AdvTree.Node[] {
+            this.node191,
+            this.node192,
+            this.node193,
+            this.node194});
+            this.node32.Text = "初级";
+            // 
+            // node191
+            // 
+            this.node191.Expanded = true;
+            this.node191.ImageIndex = 2;
+            this.node191.Name = "node191";
+            this.node191.TagString = "S9J_AidChapter";
+            this.node191.Text = "训练目的";
+            this.node191.NodeClick += new System.EventHandler(this.S9J_Aid_node_NodeClick);
+            // 
+            // node192
+            // 
+            this.node192.Expanded = true;
+            this.node192.ImageIndex = 21;
+            this.node192.Name = "node192";
+            this.node192.TagString = "S9J_InstrumentChapter";
+            this.node192.Text = "训练器材";
+            this.node192.NodeClick += new System.EventHandler(this.S9J_Instrument_node_NodeClick);
+            // 
+            // node193
+            // 
+            this.node193.Expanded = true;
+            this.node193.ImageIndex = 3;
+            this.node193.Name = "node193";
+            this.node193.TagString = "S9J_StepChapter";
+            this.node193.Text = "训练步骤";
+            this.node193.NodeClick += new System.EventHandler(this.Subject9_junior_step_node);
+            // 
+            // node194
+            // 
+            this.node194.Expanded = true;
+            this.node194.ImageIndex = 1;
+            this.node194.Name = "node194";
+            this.node194.TagString = "S9J_EvaluationChapter";
+            this.node194.Text = "考核与评价";
+            this.node194.NodeClick += new System.EventHandler(this.Subject9_Junior_evaluation_node_NodeClick);
+            // 
+            // node195
+            // 
+            this.node195.Expanded = true;
+            this.node195.ImageIndex = 15;
+            this.node195.Name = "node195";
+            this.node195.Nodes.AddRange(new DevComponents.AdvTree.Node[] {
+            this.node196,
+            this.node197,
+            this.node198,
+            this.node199,
+            this.node200,
+            this.node201,
+            this.node202});
+            this.node195.Text = "中级";
+            // 
+            // node196
+            // 
+            this.node196.Expanded = true;
+            this.node196.ImageIndex = 2;
+            this.node196.Name = "node196";
+            this.node196.TagString = "S9I_AimChapter";
+            this.node196.Text = "训练目标";
+            this.node196.NodeClick += new System.EventHandler(this.S9I_AimChapter_node_click);
+            // 
+            // node197
+            // 
+            this.node197.Expanded = true;
+            this.node197.ImageIndex = 4;
+            this.node197.Name = "node197";
+            this.node197.TagString = "S9I_InstrumentChapter";
+            this.node197.Text = "训练器材";
+            this.node197.NodeClick += new System.EventHandler(this.S9I_Instrument_node_click);
+            // 
+            // node198
+            // 
+            this.node198.Expanded = true;
+            this.node198.ImageIndex = 7;
+            this.node198.Name = "node198";
+            this.node198.TagString = "S9I_CircuitStructuresChapter";
+            this.node198.Text = "训练回路搭建";
+            this.node198.NodeClick += new System.EventHandler(this.S9I_CircuitStru_node_click);
+            // 
+            // node199
+            // 
+            this.node199.Expanded = true;
+            this.node199.ImageIndex = 8;
+            this.node199.Name = "node199";
+            this.node199.TagString = "S9I_FailModeChapter";
+            this.node199.Text = "故障实现方式";
+            this.node199.NodeClick += new System.EventHandler(this.S9I_FailMode_node_click);
+            // 
+            // node200
+            // 
+            this.node200.Expanded = true;
+            this.node200.ImageIndex = 10;
+            this.node200.Name = "node200";
+            this.node200.TagString = "S9I_FaultAnalysisChapter";
+            this.node200.Text = "故障原因分析";
+            this.node200.NodeClick += new System.EventHandler(this.S9I_FaultAna_node_click);
+            // 
+            // node201
+            // 
+            this.node201.Expanded = true;
+            this.node201.ImageIndex = 11;
+            this.node201.Name = "node201";
+            this.node201.TagString = "S9I_RepairChapter";
+            this.node201.Text = "诊断与维修";
+            this.node201.NodeClick += new System.EventHandler(this.S9I_Repair_node_click);
+            // 
+            // node202
+            // 
+            this.node202.Expanded = true;
+            this.node202.ImageIndex = 1;
+            this.node202.Name = "node202";
+            this.node202.TagString = "S9I_EvaluationChapter";
+            this.node202.Text = "考核与评价";
+            this.node202.NodeClick += new System.EventHandler(this.S9I_Evaluation_node_click);
+            // 
+            // node203
+            // 
+            this.node203.Expanded = true;
+            this.node203.ImageIndex = 16;
+            this.node203.Name = "node203";
+            this.node203.Nodes.AddRange(new DevComponents.AdvTree.Node[] {
+            this.node204,
+            this.node205,
+            this.node206,
+            this.node207,
+            this.node208,
+            this.node209});
+            this.node203.Text = "高级";
+            // 
+            // node204
+            // 
+            this.node204.Expanded = true;
+            this.node204.ImageIndex = 2;
+            this.node204.Name = "node204";
+            this.node204.TagString = "S9S_AimChapter ";
+            this.node204.Text = "训练目标";
+            this.node204.NodeClick += new System.EventHandler(this.S9S_AimChapter_click);
+            // 
+            // node205
+            // 
+            this.node205.Expanded = true;
+            this.node205.ImageIndex = 4;
+            this.node205.Name = "node205";
+            this.node205.TagString = "S9S_InstrumentChapter";
+            this.node205.Text = "训练器材";
+            this.node205.NodeClick += new System.EventHandler(this.S9S_InstrumentChapter_click);
+            // 
+            // node206
+            // 
+            this.node206.Expanded = true;
+            this.node206.ImageIndex = 7;
+            this.node206.Name = "node206";
+            this.node206.TagString = "S9S_CircuitDtructuresChapter";
+            this.node206.Text = "训练回路搭建";
+            this.node206.NodeClick += new System.EventHandler(this.S9S_CircuitDtructuresChapter_click);
+            // 
+            // node207
+            // 
+            this.node207.Expanded = true;
+            this.node207.ImageIndex = 8;
+            this.node207.Name = "node207";
+            this.node207.TagString = "S9S_FailModeChapter";
+            this.node207.Text = "故障实现方式";
+            this.node207.NodeClick += new System.EventHandler(this.S9S_FailModeChapter_click);
+            // 
+            // node208
+            // 
+            this.node208.Expanded = true;
+            this.node208.ImageIndex = 3;
+            this.node208.Name = "node208";
+            this.node208.TagString = "S9S_StepChapter";
+            this.node208.Text = "训练步骤";
+            this.node208.NodeClick += new System.EventHandler(this.S9S_StepChapter_click);
+            // 
+            // node209
+            // 
+            this.node209.Expanded = true;
+            this.node209.ImageIndex = 1;
+            this.node209.Name = "node209";
+            this.node209.TagString = "S9S_EvaluationChapter";
+            this.node209.Text = "考核与评价";
+            this.node209.NodeClick += new System.EventHandler(this.S9S_EvaluationChapter_click);
+            // 
+            // node210
+            // 
+            this.node210.ImageIndex = 18;
+            this.node210.Name = "node210";
+            this.node210.Text = "实操指导";
+            // 
+            // node211
+            // 
+            this.node211.ImageIndex = 20;
+            this.node211.Name = "node211";
+            this.node211.Text = "实操考试";
+            // 
+            // node212
+            // 
+            this.node212.Expanded = true;
+            this.node212.ImageIndex = 17;
+            this.node212.Name = "node212";
+            this.node212.Text = "理论考试";
+            this.node212.NodeClick += new System.EventHandler(this.S9J_TheoryTestNodeClick);
+            // 
+            // nodeConnector10
+            // 
+            this.nodeConnector10.LineColor = System.Drawing.SystemColors.ControlText;
+            // 
+            // elementStyle10
+            // 
+            this.elementStyle10.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.elementStyle10.Name = "elementStyle10";
+            this.elementStyle10.TextColor = System.Drawing.SystemColors.ControlText;
             // 
             // sideNavPanel4
             // 
@@ -242,34 +534,6 @@
             this.advTree1.Styles.Add(this.elementStyle1);
             this.advTree1.TabIndex = 0;
             this.advTree1.Text = "advTree1";
-            // 
-            // Subject9_il
-            // 
-            this.Subject9_il.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("Subject9_il.ImageStream")));
-            this.Subject9_il.TransparentColor = System.Drawing.Color.Transparent;
-            this.Subject9_il.Images.SetKeyName(0, "caliper_48px.png");
-            this.Subject9_il.Images.SetKeyName(1, "Google Tag Manager_96px.png");
-            this.Subject9_il.Images.SetKeyName(2, "hunt_48px.png");
-            this.Subject9_il.Images.SetKeyName(3, "workflow_48px.png");
-            this.Subject9_il.Images.SetKeyName(4, "caliper_30px.png");
-            this.Subject9_il.Images.SetKeyName(5, "Sphygmomanometer_48px.png");
-            this.Subject9_il.Images.SetKeyName(6, "course_40px.png");
-            this.Subject9_il.Images.SetKeyName(7, "motherboard_100px.png");
-            this.Subject9_il.Images.SetKeyName(8, "error_48px.png");
-            this.Subject9_il.Images.SetKeyName(9, "bug_60px.png");
-            this.Subject9_il.Images.SetKeyName(10, "customer_insight_48px.png");
-            this.Subject9_il.Images.SetKeyName(11, "maintenance_48px.png");
-            this.Subject9_il.Images.SetKeyName(12, "study_48px.png");
-            this.Subject9_il.Images.SetKeyName(13, "reading_48px.png");
-            this.Subject9_il.Images.SetKeyName(14, "mind_map_48px.png");
-            this.Subject9_il.Images.SetKeyName(15, "artificial_intelligence_48px.png");
-            this.Subject9_il.Images.SetKeyName(16, "learning_48px.png");
-            this.Subject9_il.Images.SetKeyName(17, "Todo List_48px.png");
-            this.Subject9_il.Images.SetKeyName(18, "hierarchy_48px.png");
-            this.Subject9_il.Images.SetKeyName(19, "gears_48px.png");
-            this.Subject9_il.Images.SetKeyName(20, "network_48px.png");
-            this.Subject9_il.Images.SetKeyName(21, "drill_96px.png");
-            this.Subject9_il.Images.SetKeyName(22, "process_48px.png");
             // 
             // 初级
             // 
@@ -522,270 +786,6 @@
             this.sideNavPanel10.TabIndex = 44;
             this.sideNavPanel10.Visible = false;
             // 
-            // sideNavPanel11
-            // 
-            this.sideNavPanel11.Controls.Add(this.advTree10);
-            this.sideNavPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sideNavPanel11.Location = new System.Drawing.Point(389, 39);
-            this.sideNavPanel11.Name = "sideNavPanel11";
-            this.sideNavPanel11.Size = new System.Drawing.Size(307, 1021);
-            this.sideNavPanel11.TabIndex = 68;
-            // 
-            // advTree10
-            // 
-            this.advTree10.AccessibleRole = System.Windows.Forms.AccessibleRole.Outline;
-            this.advTree10.BackColor = System.Drawing.SystemColors.Window;
-            // 
-            // 
-            // 
-            this.advTree10.BackgroundStyle.Class = "TreeBorderKey";
-            this.advTree10.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.advTree10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.advTree10.Font = new System.Drawing.Font("幼圆", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.advTree10.ImageList = this.Subject9_il;
-            this.advTree10.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
-            this.advTree10.Location = new System.Drawing.Point(0, 0);
-            this.advTree10.Name = "advTree10";
-            this.advTree10.Nodes.AddRange(new DevComponents.AdvTree.Node[] {
-            this.node32,
-            this.node195,
-            this.node203,
-            this.node210,
-            this.node211,
-            this.node212});
-            this.advTree10.NodesConnector = this.nodeConnector10;
-            this.advTree10.NodeSpacing = 10;
-            this.advTree10.NodeStyle = this.elementStyle10;
-            this.advTree10.PathSeparator = ";";
-            this.advTree10.Size = new System.Drawing.Size(307, 1021);
-            this.advTree10.Styles.Add(this.elementStyle10);
-            this.advTree10.TabIndex = 1;
-            this.advTree10.Text = "advTree10";
-            // 
-            // node32
-            // 
-            this.node32.Expanded = true;
-            this.node32.ImageIndex = 14;
-            this.node32.Name = "node32";
-            this.node32.Nodes.AddRange(new DevComponents.AdvTree.Node[] {
-            this.node191,
-            this.node192,
-            this.node193,
-            this.node194});
-            this.node32.Text = "初级";
-            // 
-            // node191
-            // 
-            this.node191.Expanded = true;
-            this.node191.ImageIndex = 2;
-            this.node191.Name = "node191";
-            this.node191.TagString = "S9J_AidChapter";
-            this.node191.Text = "训练目的";
-            this.node191.NodeClick += new System.EventHandler(this.S9J_Aid_node_NodeClick);
-            // 
-            // node192
-            // 
-            this.node192.Expanded = true;
-            this.node192.ImageIndex = 21;
-            this.node192.Name = "node192";
-            this.node192.TagString = "S9J_InstrumentChapter";
-            this.node192.Text = "训练器材";
-            this.node192.NodeClick += new System.EventHandler(this.S9J_Instrument_node_NodeClick);
-            // 
-            // node193
-            // 
-            this.node193.Expanded = true;
-            this.node193.ImageIndex = 3;
-            this.node193.Name = "node193";
-            this.node193.TagString = "S9J_StepChapter";
-            this.node193.Text = "训练步骤";
-            this.node193.NodeClick += new System.EventHandler(this.Subject9_junior_step_node);
-            // 
-            // node194
-            // 
-            this.node194.Expanded = true;
-            this.node194.ImageIndex = 1;
-            this.node194.Name = "node194";
-            this.node194.TagString = "S9J_EvaluationChapter";
-            this.node194.Text = "考核与评价";
-            this.node194.NodeClick += new System.EventHandler(this.Subject9_Junior_evaluation_node_NodeClick);
-            // 
-            // node195
-            // 
-            this.node195.Expanded = true;
-            this.node195.ImageIndex = 15;
-            this.node195.Name = "node195";
-            this.node195.Nodes.AddRange(new DevComponents.AdvTree.Node[] {
-            this.node196,
-            this.node197,
-            this.node198,
-            this.node199,
-            this.node200,
-            this.node201,
-            this.node202});
-            this.node195.Text = "中级";
-            // 
-            // node196
-            // 
-            this.node196.Expanded = true;
-            this.node196.ImageIndex = 2;
-            this.node196.Name = "node196";
-            this.node196.TagString = "S9I_AimChapter";
-            this.node196.Text = "训练目标";
-            this.node196.NodeClick += new System.EventHandler(this.S9I_AimChapter_node_click);
-            // 
-            // node197
-            // 
-            this.node197.Expanded = true;
-            this.node197.ImageIndex = 4;
-            this.node197.Name = "node197";
-            this.node197.TagString = "S9I_InstrumentChapter";
-            this.node197.Text = "训练器材";
-            this.node197.NodeClick += new System.EventHandler(this.S9I_Instrument_node_click);
-            // 
-            // node198
-            // 
-            this.node198.Expanded = true;
-            this.node198.ImageIndex = 7;
-            this.node198.Name = "node198";
-            this.node198.TagString = "S9I_CircuitStructuresChapter";
-            this.node198.Text = "训练回路搭建";
-            this.node198.NodeClick += new System.EventHandler(this.S9I_CircuitStru_node_click);
-            // 
-            // node199
-            // 
-            this.node199.Expanded = true;
-            this.node199.ImageIndex = 8;
-            this.node199.Name = "node199";
-            this.node199.TagString = "S9I_FailModeChapter";
-            this.node199.Text = "故障实现方式";
-            this.node199.NodeClick += new System.EventHandler(this.S9I_FailMode_node_click);
-            // 
-            // node200
-            // 
-            this.node200.Expanded = true;
-            this.node200.ImageIndex = 10;
-            this.node200.Name = "node200";
-            this.node200.TagString = "S9I_FaultAnalysisChapter";
-            this.node200.Text = "故障原因分析";
-            this.node200.NodeClick += new System.EventHandler(this.S9I_FaultAna_node_click);
-            // 
-            // node201
-            // 
-            this.node201.Expanded = true;
-            this.node201.ImageIndex = 11;
-            this.node201.Name = "node201";
-            this.node201.TagString = "S9I_RepairChapter";
-            this.node201.Text = "诊断与维修";
-            this.node201.NodeClick += new System.EventHandler(this.S9I_Repair_node_click);
-            // 
-            // node202
-            // 
-            this.node202.Expanded = true;
-            this.node202.ImageIndex = 1;
-            this.node202.Name = "node202";
-            this.node202.TagString = "S9I_EvaluationChapter";
-            this.node202.Text = "考核与评价";
-            this.node202.NodeClick += new System.EventHandler(this.S9I_Evaluation_node_click);
-            // 
-            // node203
-            // 
-            this.node203.Expanded = true;
-            this.node203.ImageIndex = 16;
-            this.node203.Name = "node203";
-            this.node203.Nodes.AddRange(new DevComponents.AdvTree.Node[] {
-            this.node204,
-            this.node205,
-            this.node206,
-            this.node207,
-            this.node208,
-            this.node209});
-            this.node203.Text = "高级";
-            // 
-            // node204
-            // 
-            this.node204.Expanded = true;
-            this.node204.ImageIndex = 2;
-            this.node204.Name = "node204";
-            this.node204.TagString = "S9S_AimChapter ";
-            this.node204.Text = "训练目标";
-            this.node204.NodeClick += new System.EventHandler(this.S9S_AimChapter_click);
-            // 
-            // node205
-            // 
-            this.node205.Expanded = true;
-            this.node205.ImageIndex = 4;
-            this.node205.Name = "node205";
-            this.node205.TagString = "S9S_InstrumentChapter";
-            this.node205.Text = "训练器材";
-            this.node205.NodeClick += new System.EventHandler(this.S9S_InstrumentChapter_click);
-            // 
-            // node206
-            // 
-            this.node206.Expanded = true;
-            this.node206.ImageIndex = 7;
-            this.node206.Name = "node206";
-            this.node206.TagString = "S9S_CircuitDtructuresChapter";
-            this.node206.Text = "训练回路搭建";
-            this.node206.NodeClick += new System.EventHandler(this.S9S_CircuitDtructuresChapter_click);
-            // 
-            // node207
-            // 
-            this.node207.Expanded = true;
-            this.node207.ImageIndex = 8;
-            this.node207.Name = "node207";
-            this.node207.TagString = "S9S_FailModeChapter";
-            this.node207.Text = "故障实现方式";
-            this.node207.NodeClick += new System.EventHandler(this.S9S_FailModeChapter_click);
-            // 
-            // node208
-            // 
-            this.node208.Expanded = true;
-            this.node208.ImageIndex = 3;
-            this.node208.Name = "node208";
-            this.node208.TagString = "S9S_StepChapter";
-            this.node208.Text = "训练步骤";
-            this.node208.NodeClick += new System.EventHandler(this.S9S_StepChapter_click);
-            // 
-            // node209
-            // 
-            this.node209.Expanded = true;
-            this.node209.ImageIndex = 1;
-            this.node209.Name = "node209";
-            this.node209.TagString = "S9S_EvaluationChapter";
-            this.node209.Text = "考核与评价";
-            this.node209.NodeClick += new System.EventHandler(this.S9S_EvaluationChapter_click);
-            // 
-            // node210
-            // 
-            this.node210.ImageIndex = 18;
-            this.node210.Name = "node210";
-            this.node210.Text = "实操指导";
-            // 
-            // node211
-            // 
-            this.node211.ImageIndex = 20;
-            this.node211.Name = "node211";
-            this.node211.Text = "实操考试";
-            // 
-            // node212
-            // 
-            this.node212.Expanded = true;
-            this.node212.ImageIndex = 17;
-            this.node212.Name = "node212";
-            this.node212.Text = "理论考试";
-            this.node212.NodeClick += new System.EventHandler(this.S9J_TheoryTestNodeClick);
-            // 
-            // nodeConnector10
-            // 
-            this.nodeConnector10.LineColor = System.Drawing.SystemColors.ControlText;
-            // 
-            // elementStyle10
-            // 
-            this.elementStyle10.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.elementStyle10.Name = "elementStyle10";
-            this.elementStyle10.TextColor = System.Drawing.SystemColors.ControlText;
-            // 
             // sideNavItem1
             // 
             this.sideNavItem1.IsSystemMenu = true;
@@ -956,8 +956,8 @@
             // 
             // styleManager1
             // 
-            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Metro;
-            this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.White, System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(87)))), ((int)(((byte)(154))))));
+            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2016;
+            this.styleManager1.MetroColorParameters = new DevComponents.DotNetBar.Metro.ColorTables.MetroColorGeneratorParameters(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255))))), System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(115)))), ((int)(((byte)(199))))));
             // 
             // panel1
             // 
@@ -1000,10 +1000,10 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.sideNav1.ResumeLayout(false);
             this.sideNav1.PerformLayout();
-            this.sideNavPanel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.advTree1)).EndInit();
             this.sideNavPanel11.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.advTree10)).EndInit();
+            this.sideNavPanel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.advTree1)).EndInit();
             this.ResumeLayout(false);
 
         }
