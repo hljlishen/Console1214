@@ -33,8 +33,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevComponents.DotNetBar.Charts, Version=14.1.0.37, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.Charts, Version=14.1.0.37, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <HintPath>..\DotNetBar\DevComponents.DotNetBar.Charts.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Design, Version=14.1.0.0, Culture=neutral, PublicKeyToken=90f470f34c89ccaf, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.Keyboard, Version=14.1.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
     <Reference Include="DevComponents.DotNetBar.Layout, Version=14.1.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.Schedule, Version=14.1.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04" />
     <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=14.1.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
     <Reference Include="DevComponents.DotNetBar2, Version=14.1.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
     <Reference Include="DevComponents.Instrumentation, Version=14.1.0.0, Culture=neutral, PublicKeyToken=f90dc37c26666a67, processorArchitecture=MSIL" />
@@ -45,6 +50,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\JYUSB61903.dll</HintPath>
     </Reference>
+    <Reference Include="NgenInstaller, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="SeeSharpTools.JY.ArrayUtility, Version=1.4.6.577, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\SeeSharpTools.JY.ArrayUtility.dll</HintPath>
@@ -58,6 +64,7 @@
       <HintPath>bin\Debug\SeeSharpTools.JY.GUI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
     <Reference Include="System.Drawing.Design" />
@@ -224,8 +231,25 @@
     <Compile Include="DashForms\VoltageV.Designer.cs">
       <DependentUpon>VoltageV.cs</DependentUpon>
     </Compile>
+    <Compile Include="DbLinkManager.cs" />
+    <Compile Include="DBLink\ActiveRecord.cs" />
+    <Compile Include="DBLink\DatabaseDrive.cs" />
+    <Compile Include="DBLink\DbLinkFactory.cs" />
+    <Compile Include="DBLink\DbLinkGateway.cs" />
+    <Compile Include="DBLink\IDatabaseDrive.cs" />
+    <Compile Include="DBLink\IDateTimeFormater.cs" />
+    <Compile Include="DBLink\SqlServerDrive.cs" />
+    <Compile Include="DBLink\TableField.cs" />
+    <Compile Include="DBLink\TableFieldPropertyMap.cs" />
     <Compile Include="Device\FakeDevice.cs" />
     <Compile Include="Device\Usb1903.cs" />
+    <Compile Include="EntityPackage\Administrator.cs" />
+    <Compile Include="EntityPackage\Class.cs" />
+    <Compile Include="EntityPackage\MapPermissins.cs" />
+    <Compile Include="EntityPackage\Permissins.cs" />
+    <Compile Include="EntityPackage\Results.cs" />
+    <Compile Include="EntityPackage\Student.cs" />
+    <Compile Include="EntityPackage\Teacher.cs" />
     <Compile Include="ExaminationBoard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -263,6 +287,22 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuestionManagement\MyGridRadialMenuEditControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="QuestionManagement\QuestionImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuestionManagement\QuestionImport.Designer.cs">
+      <DependentUpon>QuestionImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionManagement\QuestionList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuestionManagement\QuestionList.Designer.cs">
+      <DependentUpon>QuestionList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionManagement\XmlProcess.cs" />
     <Compile Include="Resource1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -344,6 +384,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="QuestionManagement\QuestionImport.resx">
+      <DependentUpon>QuestionImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionManagement\QuestionList.resx">
+      <DependentUpon>QuestionList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Resource1.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
