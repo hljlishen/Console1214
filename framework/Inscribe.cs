@@ -5,7 +5,6 @@ namespace Console.framework
     public class Inscribe
     {
         public int Index { get; set; }
-        public int ElementId { get; set; }
         public string Text { get; set; }
         public List<string> Candidates { get; set; } = new List<string>();
         public List<string> CorrectAnwsers { get; set; } = new List<string>();

@@ -25,16 +25,9 @@ namespace Console
             dynamicDashBoard = new DynamicDashBoard(subject);
             collapsibleSplitContainer1.Panel2.Controls.Add(dynamicDashBoard);
             dynamicDashBoard.Show();
-
-            
         }
 
         private void sideNavItem3_MouseEnter(object sender, EventArgs e)
-        {
-            sideNav1.SelectedItem = sender as SideNavItem;
-        }
-
-        private void sni_QuestionManagement_MouseEnter(object sender, EventArgs e)
         {
             sideNav1.SelectedItem = sender as SideNavItem;
         }

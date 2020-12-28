@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             this.collapsibleSplitContainer1 = new DevComponents.DotNetBar.Controls.CollapsibleSplitContainer();
             this.sideNav1 = new DevComponents.DotNetBar.Controls.SideNav();
-            this.sideNavPanel3 = new DevComponents.DotNetBar.Controls.SideNavPanel();
             this.sideNavPanel2 = new DevComponents.DotNetBar.Controls.SideNavPanel();
             this.groupPanel2 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.sideNavPanel1 = new DevComponents.DotNetBar.Controls.SideNavPanel();
@@ -40,7 +39,6 @@
             this.separator1 = new DevComponents.DotNetBar.Separator();
             this.sideNavItem2 = new DevComponents.DotNetBar.Controls.SideNavItem();
             this.sideNavItem3 = new DevComponents.DotNetBar.Controls.SideNavItem();
-            this.sni_QuestionManagement = new DevComponents.DotNetBar.Controls.SideNavItem();
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.collapsibleSplitContainer1)).BeginInit();
             this.collapsibleSplitContainer1.Panel1.SuspendLayout();
@@ -68,7 +66,6 @@
             // 
             // sideNav1
             // 
-            this.sideNav1.Controls.Add(this.sideNavPanel3);
             this.sideNav1.Controls.Add(this.sideNavPanel2);
             this.sideNav1.Controls.Add(this.sideNavPanel1);
             this.sideNav1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -76,8 +73,7 @@
             this.sideNavItem1,
             this.separator1,
             this.sideNavItem2,
-            this.sideNavItem3,
-            this.sni_QuestionManagement});
+            this.sideNavItem3});
             this.sideNav1.Location = new System.Drawing.Point(0, 0);
             this.sideNav1.Name = "sideNav1";
             this.sideNav1.Padding = new System.Windows.Forms.Padding(1);
@@ -85,23 +81,14 @@
             this.sideNav1.TabIndex = 0;
             this.sideNav1.Text = "sideNav1";
             // 
-            // sideNavPanel3
-            // 
-            this.sideNavPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sideNavPanel3.Location = new System.Drawing.Point(139, 41);
-            this.sideNavPanel3.Name = "sideNavPanel3";
-            this.sideNavPanel3.Size = new System.Drawing.Size(256, 999);
-            this.sideNavPanel3.TabIndex = 13;
-            // 
             // sideNavPanel2
             // 
             this.sideNavPanel2.Controls.Add(this.groupPanel2);
             this.sideNavPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sideNavPanel2.Location = new System.Drawing.Point(139, 39);
+            this.sideNavPanel2.Location = new System.Drawing.Point(139, 41);
             this.sideNavPanel2.Name = "sideNavPanel2";
-            this.sideNavPanel2.Size = new System.Drawing.Size(256, 1001);
+            this.sideNavPanel2.Size = new System.Drawing.Size(256, 999);
             this.sideNavPanel2.TabIndex = 6;
-            this.sideNavPanel2.Visible = false;
             // 
             // groupPanel2
             // 
@@ -147,9 +134,9 @@
             // 
             this.sideNavPanel1.Controls.Add(this.groupPanel1);
             this.sideNavPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sideNavPanel1.Location = new System.Drawing.Point(139, 39);
+            this.sideNavPanel1.Location = new System.Drawing.Point(135, 39);
             this.sideNavPanel1.Name = "sideNavPanel1";
-            this.sideNavPanel1.Size = new System.Drawing.Size(256, 1001);
+            this.sideNavPanel1.Size = new System.Drawing.Size(260, 1001);
             this.sideNavPanel1.TabIndex = 2;
             this.sideNavPanel1.Visible = false;
             // 
@@ -219,20 +206,12 @@
             // 
             // sideNavItem3
             // 
+            this.sideNavItem3.Checked = true;
             this.sideNavItem3.Name = "sideNavItem3";
             this.sideNavItem3.Panel = this.sideNavPanel2;
             this.sideNavItem3.Symbol = "";
             this.sideNavItem3.Text = "sideNavItem3";
             this.sideNavItem3.MouseEnter += new System.EventHandler(this.sideNavItem3_MouseEnter);
-            // 
-            // sni_QuestionManagement
-            // 
-            this.sni_QuestionManagement.Checked = true;
-            this.sni_QuestionManagement.Name = "sni_QuestionManagement";
-            this.sni_QuestionManagement.Panel = this.sideNavPanel3;
-            this.sni_QuestionManagement.Symbol = "";
-            this.sni_QuestionManagement.Text = "题库管理";
-            this.sni_QuestionManagement.MouseEnter += new System.EventHandler(this.sni_QuestionManagement_MouseEnter);
             // 
             // styleManager1
             // 
@@ -274,7 +253,5 @@
         private DevComponents.DotNetBar.Controls.GroupPanel groupPanel2;
         private DevComponents.DotNetBar.Controls.GroupPanel groupPanel1;
         private DevComponents.DotNetBar.StyleManager styleManager1;
-        private DevComponents.DotNetBar.Controls.SideNavPanel sideNavPanel3;
-        private DevComponents.DotNetBar.Controls.SideNavItem sni_QuestionManagement;
     }
 }
