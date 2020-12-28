@@ -1,6 +1,7 @@
 ﻿using Console.DashForms;
 using Console.Device;
 using Console.framework;
+using Console.QuestionManagement;
 using System;
 using System.Windows.Forms;
 
@@ -17,7 +18,7 @@ namespace Console
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(new MainForm());
+            Application.Run(new QuestionList());
         }
     }
 }
